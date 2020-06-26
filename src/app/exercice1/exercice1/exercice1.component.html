@@ -1,0 +1,18 @@
+
+<!-- string interpolation -->
+<h2> {{ title }} </h2>
+
+<hr>
+je m'appelle {{ objet.prenom }}, j'ai {{ age }} ans, boolean à {{ bool }},
+<hr>
+{{ diviser(12) }}
+<hr>
+
+<!-- liaison d'attribut -->
+<input [type]="inputType"/>
+
+<br>
+<br>
+
+<!-- liaison d'événements -->
+<div class="carre" (click)= "cliquer($event)" ></div>
